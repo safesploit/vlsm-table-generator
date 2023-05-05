@@ -4,7 +4,7 @@
 
   const targets = {
     NAME: 'name',
-    SIZE: 'size'
+    SIZE: 'usable hosts'
   };
 
   const buildInput = (idInt, target) => {
