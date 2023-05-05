@@ -28,7 +28,7 @@
       last: intToIpv4(last),
       next: intToIpv4(next),
       mask,
-      prefix,
+      prefix: '/' + prefix,
       max
     };
   };
